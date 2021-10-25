@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DateTimePageRoutingModule } from './date-time-routing.module';
+import { InfinitePageRoutingModule } from './infinite-routing.module';
 
-import { DateTimePage } from './date-time.page';
+import { InfinitePage } from './infinite.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,10 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    DateTimePageRoutingModule,
-    ComponentsModule,
+    InfinitePageRoutingModule,
     ComponentsModule
   ],
-  declarations: [DateTimePage]
+  declarations: [InfinitePage]
 })
-export class DateTimePageModule {}
+export class InfinitePageModule {}

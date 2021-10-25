@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DateTimePageRoutingModule } from './date-time-routing.module';
+import { InputPageRoutingModule } from './input-routing.module';
 
-import { DateTimePage } from './date-time.page';
+import { InputPage } from './input.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,10 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    DateTimePageRoutingModule,
-    ComponentsModule,
+    InputPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [DateTimePage]
+  declarations: [InputPage]
 })
-export class DateTimePageModule {}
+export class InputPageModule {}
