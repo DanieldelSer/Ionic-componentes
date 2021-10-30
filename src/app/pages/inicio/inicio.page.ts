@@ -20,8 +20,8 @@ export class InicioPage implements OnInit {
     this.componentes = this.dataService.getMenuOpts();
   }
 
-  mostrarMenu() {
-    this.menuCtrl.open('first');
-  }
+  // mostrarMenu() {
+  //   this.menuCtrl.open('first');
+  // }
 
 }
