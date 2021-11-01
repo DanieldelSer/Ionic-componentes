@@ -93,5 +93,15 @@
     "icon": "search-outline",
     "name": "Search",
     "redirestTo": "/search"
+  },
+  {
+    "icon": "copy-outline",
+    "name": "Segment",
+    "redirestTo": "/segment"
+  },
+  {
+    "icon": "albums-outline",
+    "name": "Slides",
+    "redirestTo": "/slides"
   }
 ]
