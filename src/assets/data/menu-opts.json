@@ -103,5 +103,15 @@
     "icon": "albums-outline",
     "name": "Slides",
     "redirestTo": "/slides"
+  },
+  {
+    "icon": "cog-outline",
+    "name": "Tabs",
+    "redirestTo": "/tabs"
+  },
+  {
+    "icon": "pricetag-outline",
+    "name": "Toast",
+    "redirestTo": "/toast"
   }
 ]
